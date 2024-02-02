@@ -1,0 +1,13 @@
+Geïmplementeerd:
+
+1. AboutBox bevat 1 static methode. Deze verplaatst naar MenuController. Hernoemd naar showAboutBox. Static weggehaald.
+2. DemoPresentation onnodige klasse. Ipv deze klasse nieuwe flexibele methode gecreëerd genaamd createNewPresentation. Data verplaatst naar main (aanpasbaar via args)
+Dit maakte Accessor onnodig, ook verwijderd
+Nog niet geïmplementeerd: 
+3. MenuController constructor is onnodig groot. Refactored naar methodes ipv constructor
+
+
+
+Verder:
+
+3. Zie verdere ideeën zoals MVC 
